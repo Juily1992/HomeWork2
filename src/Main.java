@@ -40,14 +40,12 @@ public class Main {
         System.out.println(boxer1 + boxer2 + "кг");
         System.out.println(Math.abs(boxer1 - boxer2) + "кг");
 
-                System.out.println( boxer2 % boxer1);
+        System.out.println( boxer2 % boxer1);
 
         var workers = 640 / 8;
         System.out.println("Всего работников в компании — " + workers + " человек");
         var workers1 = workers+94;
         System.out.println( "Если в компании работает " + workers1 + " человек, то всего " + workers1*8 + " часа работы может быть поделено между сотрудниками»");
-
-        
 
     }
 
